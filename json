@@ -1,0 +1,9 @@
+{
+    "id":1,
+    "jsonrpc":"2.0",
+    "method": "PublicHolidays",
+    "params":{
+	"start" : 2019,
+	"end" : 2020
+    }
+}

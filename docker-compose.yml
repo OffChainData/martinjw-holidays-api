@@ -1,0 +1,11 @@
+version: '3.4'
+services:
+  holiday-sources:
+    container_name: martinjw-holidays
+    image: ${DOCKER_REGISTRY}holidayapi
+    ports:
+      - "8188:80"
+    build:
+      context: .
+      dockerfile: Dockerfile
+      
